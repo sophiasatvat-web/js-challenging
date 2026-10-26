@@ -1,0 +1,33 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    
+    background-image: linear-gradient( to right, rgb(201, 70, 99), rgb(195, 0, 255));
+}
+
+p{
+    font-size: 60px;
+    background-color: #dd73ba67;
+    border-radius: 50px;
+    font-family: "Snowburst One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 10px 10px 10px salmon;
+    display: inline-block;
+}
+
+.contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.contaner :hover{
+    font-size: 65px;
+    
+}
